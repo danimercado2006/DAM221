@@ -11,15 +11,19 @@ import{Perfil} from './components/Perfil';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hola Mundo React Native</Text>
+      {/* <Text>Hola Mundo React Native</Text>
       <Image source={require('./assets/wave.png')}></Image>
       <Text>____________________________</Text>
       <Saludo></Saludo>
       <Saludo/>
       <Text>____________________________</Text>
       <Saludo2></Saludo2>
-      <Saludo2></Saludo2>
-      <Perfil></Perfil>
+      <Saludo2></Saludo2> */}
+
+      <Perfil nombre="Lulu" carrera="ITIID" materia="Desarrollo de Aplicaciones Moviles" cuatri="Cuarto Cuatrimestre"></Perfil>
+      <Perfil nombre="Renata" carrera="ITIID" materia="Desarrollo de Aplicaciones Web" cuatri="Cuarto Cuatrimestre"/>
+      <Perfil nombre="Luisa" carrera="ITIID" materia="Desarrollo de Aplicaciones Moviles" cuatri="Cuarto Cuatrimestre"/>
+  
       <StatusBar style="auto" />
     </View>
   );
