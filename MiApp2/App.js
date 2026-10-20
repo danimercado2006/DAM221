@@ -20,10 +20,10 @@ export default function App() {
       <Saludo2></Saludo2>
       <Saludo2></Saludo2> */}
 
-      <Perfil nombre="Lulu" carrera="ITIID" materia="Desarrollo de Aplicaciones Moviles" cuatri="Cuarto Cuatrimestre"></Perfil>
-      <Perfil nombre="Renata" carrera="ITIID" materia="Desarrollo de Aplicaciones Web" cuatri="Cuarto Cuatrimestre"/>
-      <Perfil nombre="Luisa" carrera="ITIID" materia="Desarrollo de Aplicaciones Moviles" cuatri="Cuarto Cuatrimestre"/>
-  
+      <Perfil style={styles.tarjetas1} nombre="Lulu" carrera="ITIID" materia="Desarrollo de Aplicaciones Moviles" cuatri="Cuarto Cuatrimestre"></Perfil>
+      <Perfil style={styles.tarjetas2} nombre="Renata" carrera="ITIID" materia="Desarrollo de Aplicaciones Web" cuatri="Cuarto Cuatrimestre"/>
+      <Perfil style={styles.tarjetas3} nombre="Luisa" carrera="ITIID" materia="Desarrollo de Aplicaciones Moviles" cuatri="Cuarto Cuatrimestre"/>
+
       <StatusBar style="auto" />
     </View>
   );
@@ -35,6 +35,22 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
+    flexDirection: 'column',
     justifyContent: 'center',
   },
+  tarjetas1:
+  {
+    backgroundColor:'#c4bbd8',
+
+  },
+  tarjetas2:
+  {
+    backgroundColor:'#f3f2b0',
+  },
+
+  tarjetas3:
+  {
+    backgroundColor:'#b0f3e6',
+  },
+
 });
