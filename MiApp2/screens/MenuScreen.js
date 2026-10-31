@@ -4,7 +4,7 @@ import { useState } from 'react';
 import TarjetasScreen  from './TarjetasScreen';
 import SafeScreen from './SafeScreen';
 import  PressableScreen from './PressableScreen';
-import txtScreen from './TxtScreen';
+import TxtScreen from './TxtScreen';
 import FlatScreen from './FlatScreen' ;
 import ImageBackScreen from './ImageBackScreen';
 import ModalScreen from './ModalScreen';
