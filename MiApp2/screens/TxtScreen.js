@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {StyleSheet,Text,View,ScrollView,TextInput,Button, Alert} from 'react-native';
 
 export default function TxtScreen()
